@@ -1,0 +1,110 @@
+.head{
+ width:auto;
+ height:70px;
+ background-color: blue;
+}
+
+h2{
+    position: absolute;
+    color: orange;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, sans-serif;
+    padding-left: 20px;
+    top:2px; 
+}
+.button {
+    position: absolute;
+    top:14px;
+    text-decoration: none;
+    left:300px;
+    width: 100px;
+    background-color: orange;
+    border: 2px solid;
+    color: black;
+    padding:2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+.form{
+
+    position: absolute;
+    top:200px;
+}
+#go{
+ position: relative;
+    left: 10px;
+}
+#search{
+    position: absolute;
+    top: 18px;
+
+}
+#icon{
+    position: absolute;
+    top: 18px;
+    left: 350px;
+    height:35px;
+    width: 60px;
+    background-color: orange;
+}
+.navbar{
+ 
+    height: 70px;
+}
+.navbar-right{
+position: relative;
+top: 13 px;
+
+
+}
+.search{
+
+    position: relative;
+    left: 350px;
+}
+#search{
+    width: 350px;
+}
+#searchIcon{
+    position: relative;
+    left: 350px;
+    top: 18px;
+    width: 40px;
+    height:35px; 
+}
+#about{
+    position: relative;
+    
+}
+img{
+    position: relative;
+    left: 8px;
+}
+.iprofile{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width:130px;
+    height:30px;
+    border-radius:10px;
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.link{
+    position: relative;
+    left: -47px;
+    width: 200px;
+
+}
+span{
+    color: red;
+    text-align: right;
+}
