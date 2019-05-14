@@ -124,9 +124,9 @@ CREATE TABLE IF NOT EXISTS `registration` (
 
 INSERT INTO `registration` (`Password`, `Username`, `FirstName`, `Email`, `ContactNumber`, `Gender`, `VehicleNum`, `Picture`, `Source`, `Destination`, `Fare`, `Date`, `Status`) VALUES
 ('$2y$10$b0g.o2ABauFqXksNeMuI3ut5PqCMospqZDJ5JcS5dOd', '123@gmail.com', 'Ram', '123@gmail.com', '8989898989', 'on', 'ap15p2345', './upload/', 'Nizamabad', 'Basar', 1500, '08/05/2017', 'Available'),
-('$2y$10$qtDsKscRI8CE1fqiYo/eV.BleA3AbEhjWjs/pvTgf32', 'nani@gmail.com', 'Nani', 'nani@gmail.com', '9988776655', 'on', 'AP30D5707', './upload/index.jpeg', 'Srikakulam', 'Tekkali', 150005, '05/02/2017', 'Available'),
-('$2y$10$zybcUrWMOUdPwdpja2UIVe8sUowCwzGi7Ea8nZW9dgJ', 'naveen.kammari92@gmail.com', 'NaveenKumar', 'naveen.kammari92@gmail.com', '9441319799', 'on', 'AP30D5701', './upload/DSC_0013.jpg', 'Medak', 'Srikakulam', 1456, '04/27/2017', 'Available'),
-('$2y$10$69Gh/Vf.9jNwb8SIvTzVZ.i7G0nLbilzYFLoXCVDiZQ', 'rajuarts@gmail.com', 'Raju', 'rajuarts@gmail.com', '9441319799', 'on', 'AP30D5707', './upload/DSC_0027.jpg', 'Pathapatnam', 'Nizamabad', 120, '04/23/2017', 'Available'),
+('$2y$10$qtDsKscRI8CE1fqiYo/eV.BleA3AbEhjWjs/pvTgf32', 'nani@gmail.com', 'Nani', 'nani@gmail.com', '9988776655', 'on', 'AP3087875', './upload/index.jpeg', 'Srikakulam', 'Tekkali', 150005, '05/02/2017', 'Available'),
+('$2y$10$zybcUrWMOUdPwdpja2UIVe8sUowCwzGi7Ea8nZW9dgJ', 'naveen.kammari92@gmail.com', 'NaveenKumar', 'naveen.kammari92@gmail.com', '7419876512', 'on', 'AP3087875', './upload/DSC_0013.jpg', 'Medak', 'Srikakulam', 1456, '04/27/2017', 'Available'),
+('$2y$10$69Gh/Vf.9jNwb8SIvTzVZ.i7G0nLbilzYFLoXCVDiZQ', 'sfdghjk@gmail.com', 'Raju', 'sfdghjk@gmail.com', '7418529635', 'on', 'AP3087875', './upload/DSC_0027.jpg', 'Pathapatnam', 'Nizamabad', 120, '04/23/2017', 'Available'),
 ('$2y$10$ncxykHAMsRT4uTta4sFqgOS0mmd.C9aA06H2BUKEkBe', 'shiva.danthoju@gmail.com', 'Shiva', 'shiva.danthoju@gmail.com', '9876543219', 'on', 'TS20P9876', './upload/DSC_0022.jpg', 'Srikakulam', 'Guntur', 1234, '04/29/2017', 'Available');
 
 -- --------------------------------------------------------
@@ -148,7 +148,7 @@ CREATE TABLE IF NOT EXISTS `User` (
 --
 
 INSERT INTO `User` (`sno`, `FirstName`, `Email`, `Password`, `Contact`) VALUES
-(17, 'Chintuyadav', 'chintuyadav.sr336@gmail.com', '$2y$10$GkSR0f3YM4ueA1mTM3Rq4ujLMzbKFdl1QvKmgqJkxGdRq6ZLU64/O', '9963618687'),
+(17, 'Chintuyadav', 'ch6@gmail.com', '$2y$10$GkSR0f3YM4ueA1mTM3Rq4ujLMzbKFdl1QvKmgqJkxGdRq6ZLU64/O', '9638527417'),
 (19, 'parashuram', 'parashuram@gmail.com', '$2y$10$WVJvkSsRrCBYqn1sebDFsuFxR5dlwLAT7PKVEQ7VG0wJqkoy60CWq', '9491201451'),
 (20, 'Sai', '123@gmail.com', '$2y$10$MTr2o8hNtkbnUwzTDep1W.mT385KznUUJqoOxq1Y68GPuPrhdYTzK', '1234');
 
